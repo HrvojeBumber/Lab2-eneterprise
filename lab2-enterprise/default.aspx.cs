@@ -16,14 +16,15 @@ namespace lab2_enterprise
 
         protected void btnSubmit_Click(object sender, EventArgs e)
         {
+          
             //copy value from textbox to the label
-            lblFirstname.Text = txtFirstname.Text;
+            lblStudentname.Text = txtFirstname.Text;
      
 
             //copy value from textbox to the label
             lblAddress.Text = txtAddress.Text;
 
-            //
+            
             lblPassword.Text = txtPassword.Text;
 
             //show the selected province in the literal control
